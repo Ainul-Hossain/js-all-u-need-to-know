@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 id="title1" class="text-center" style="text-align: center;">Introduction to DOM
+        </h1>
+
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus necessitatibus, eos ipsa vitae, dolore temporibus provident maxime voluptatem laboriosam repellat ea recusandae facere cupiditate veritatis veniam maiores dolorum eius. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique excepturi provident quaerat dolore fugit asperiores amet, sunt vero suscipit recusandae nisi id ea voluptatum quibusdam voluptatem dolor repellendus enim!
+        </p>
+
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus necessitatibus, eos ipsa vitae, dolore temporibus provident maxime voluptatem laboriosam repellat ea recusandae facere cupiditate veritatis veniam maiores dolorum eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in qui eligendi tempora eos odio dolorum cumque recusandae nostrum similique sit, facere maxime facilis deleniti reiciendis laborum voluptates libero fugiat!
+        </p>
+
+        <ul id="list" class="list-group" style="margin-left: 20%; list-style-type: square;">
+            <li class = 'item'>One</li>
+            <li class = 'item'>Two</li>
+            <li class = 'item'>Three</li>
+        </ul>
+
+        <button style="margin-left: 25%;" type='submit' id='btn'>Add Me</button>
+
+        <div style='margin-left: 20%; margin-bottom: 30px; background-color: green; width: 300px; height: 100px;' id='box'>
+            <p >
+                (<span id='x-value'>0</span>, <span id='y-value'>0</span>)
+            </p>
+        </div>
+
+        <div style='margin-left: 20%;'>
+            <label  for="name">What is your name?</label> <br/>
+            <input id="name" style='margin-top: 8px;' type='text' placeholder="Enter Name"/>
+            <p id='showName'></p>
+        </div>
+
+        <div style='margin-left: 20%;'>
+            <label><b>Choose Your Skills</b></label>
+
+            <div style="margin-top: 2px">
+                <input id='' name="skills" type="checkbox" value="Javascript">
+                <label>Javascript</label>
+            </div>
+
+            <div>
+                <input id='' name="skills" type="checkbox" value="Python">
+                <label>Python</label>
+            </div>
+
+            <div>
+                <input id='' name="skills" type="checkbox" value="C Programming">
+                <label>C Programming</label>
+            </div>
+
+            <div>
+                <input id='' name="skills" type="checkbox" value="Java">
+                <label>Java</label>
+            </div>
+        </div>
+
+        <label style="display:inline-block; margin-left: 20%; margin-top: 8px;"><b>Selected Skills</b></label>
+
+        <div id="result" style="margin-left: 20%;" ></div>
+
+
+        <!-- Form Handling -->
+
+        <form id='form' style="margin-left: 20%; margin-top: 15px;">
+            <label><b>Please fill the form</b></label>
+            <div class="form-group" style="margin-top: 8px;">
+                <label for='name'>What is your name?</label><br/>
+                <input type="text" id='Enter name' name='name' placeholder="Enter your name" style="margin-top: 3px;">
+            </div>
+            <div class="form-group" style="margin-top: 5px;">
+                <label for='email'>What is your Email?</label><br/>
+                <input type="email" id='email' name='email' placeholder="Enter your Email" style="margin-top: 3px;">
+            </div>
+            <div class="form-group" style="margin-top: 5px;">
+                <label for='password'>What is your Password?</label><br/>
+                <input type="password" id='password' name='password' placeholder="Enter your Password" style="margin-top: 3px;">
+            </div>
+            <div class="form-group" style="margin-top: 5px;">
+                <label for='country'>What is your Country?</label><br/>
+                <select id="country" name="country" style="margin-top: 3px;">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Srilanka">Srilanka</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit" class="btn" style="margin-top: 5px;">
+        </form>
+
+        <div class='XMLHttp' style="margin-left: 20%;">
+            <h1>Communicate With the World</h1>
+            <label>
+                <button id="getBtn">Get</button> 
+                <button id="sendBtn">Send</button>
+            </label>
+        </div>
+
+    </div>
+
+    <script src="/hello.js"></script>
+    <script src="/oop.js"></script>
+    <script src="/ES6.js"></script>
+    <script src="/AsynchronousJS.js"></script>
+    <script src="/DOM.js"></script>
+    <!-- <script type="module" src="ES6_Modules/Person.js"></script>
+    <script type="module" src="ES6_Modules/Common.js"></script>
+    <script type="module" src="ES6_Modules/aggregate.js"></script> -->
+  </body>
+</html>

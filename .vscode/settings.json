@@ -1,0 +1,10 @@
+{
+    "oneDarkPro.editorTheme": "oneDarkPro",
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontSize": 25,
+    "editor.semanticTokenColorCustomizations": null,
+    "workbench.colorCustomizations": {
+    
+    },
+    "editor.tokenColorCustomizations": null
+}
